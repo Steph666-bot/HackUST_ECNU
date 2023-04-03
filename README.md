@@ -10,7 +10,7 @@
 
 ##### 3. Vote page
 
-![vote](C:\Users\stephana\Documents\黑客松\运行图\vote.png)
+![vote](img/vote.png)
 
 ##### 4. Result page![client_result](img/client_result.png)
 
