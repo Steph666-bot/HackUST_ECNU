@@ -181,7 +181,7 @@ At this point, the project on successful, at this time we directly enter http://
 | ------------------------------------------------------------ |
 
  **Function Description:** Verify whether the transaction file is valid in Merkle tree. 
-|**Input Parameter:**                                         
+**Input Parameter:**                                         
 
 |    Para    |
 | :--------: |
