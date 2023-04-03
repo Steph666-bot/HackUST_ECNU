@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>文件管理</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td,
+    th {
+      border: 1px solid #ccc;
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+
+<body>
+<h2 th:text="文件管理">文件管理</h2>
+<p>
+<form action="/doc/addByForm" method="post">
+  <label for="">文件名：
+    <input type="text" name="doc_identifier" />
+  </label>
+  <label for="">count：
+    <input type="number" name="count" />
+  </label>
+  <input type="submit" value="添加文件" />
+</form>
+</p>
+<table>
+  <tr>
+    <th>文件id</th>
+    <th>文件标识符</th>
+    <th>count</th>
+    <th>操作</th>
+  </tr>
+  <tr th:each="d:${docs}">
+    <form action="/doc/updateByForm" method="post" >
+      <td th:text="${d.id}"></td>
+      <input type="text" th:value="${d.id}" name="id" hidden />
+      <td><input type="text" th:value="${d.doc_identifier}" name="doc_identifier"></td>
+      <td><input type="text" th:value="${d.count}" name="count"></td>
+      <td>
+        <input type="submit" value="修改" />
+    </form>
+    <form action="/doc/delByForm" method="post" style="display: inline-block;">
+      <input type="text" name="id" th:value="${d.id}" hidden>
+      <input type="submit" value="删除" />
+    </form>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
