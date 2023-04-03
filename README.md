@@ -165,6 +165,7 @@ At this point, the project on successful, at this time we directly enter http://
 | ------------------------------------------------------------ |
 
  **Function Description:** Compute the nearest power of 2 to input. 
+ 
  **Input Parameter:**                                         
 
 |    Para    |  Type  |                         Description                          |
@@ -181,6 +182,7 @@ At this point, the project on successful, at this time we directly enter http://
 | ------------------------------------------------------------ |
 
  **Function Description:** Verify whether the transaction file is valid in Merkle tree. 
+ 
 **Input Parameter:**                                         
 
 |    Para    |
