@@ -185,10 +185,10 @@ At this point, the project on successful, at this time we directly enter http://
  
 **Input Parameter:**                                         
 
-|    Para    |
-| :--------: |
-| trans_file |
-|  mk_path   |
+|Para	|Type	|Description|
+|:-:|:-:|:-:|
+|trans_file	|String	|Transaction file path|
+|mk_path	|String	|Merkle tree file path|
 
 **Output Parameter:** If the Verification passes, then return true, otherwise return false. 
 
