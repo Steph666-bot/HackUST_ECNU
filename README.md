@@ -2,19 +2,19 @@
 
 ##### 1. Login page
 
-![login](C:\Users\stephana\Documents\黑客松\运行图\login.png)
+![login](img/login.png)
 
 ##### 2. Register page
 
-![register](C:\Users\stephana\Documents\黑客松\运行图\register.png)
+![register](img/register.png)
 
 ##### 3. Vote page
 
 ![vote](C:\Users\stephana\Documents\黑客松\运行图\vote.png)
 
-##### 4. Result page![client_result](C:\Users\stephana\Documents\黑客松\运行图\client_result.png)
+##### 4. Result page![client_result](img/client_result.png)
 
-##### 5. Admin page![admin](C:\Users\stephana\Documents\黑客松\运行图\admin.png)
+##### 5. Admin page![admin](img/admin.png)
 
 ## Technology stack
 
